@@ -2,7 +2,8 @@ name: Trigger PropLit Update
 
 on:
   schedule:
-    - cron: "17 * * * *"
+    - cron: "47 * * * *"
+      timezone: "Europe/London"
   workflow_dispatch:
 
 jobs:
